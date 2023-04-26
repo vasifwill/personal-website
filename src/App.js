@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import HomepageLight from "./pages/HomepageLight";
 import HomepageDark from "./pages/HomepageDark";
@@ -16,37 +16,37 @@ import "./App.scss";
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route path="/" exact>
-          <Homepage />
+      <Routes>
+        <Route path="/" element={<Homepage />}>
+         
         </Route>
-        <Route path="/dark" exact>
-          <HomepageDark />
+        <Route path="/dark" element={ <HomepageDark />}>
+         
         </Route>
-        <Route path="/light" exact>
-          <HomepageLight />
+        <Route path="/light" element={<HomepageLight />}>
+          
         </Route>
-        <Route path="/index-2" exact>
-          <Homepage2 />
+        <Route path="/index-2" element={<Homepage2 />}>
+          
         </Route>
-        <Route path="/index-2-light" exact>
-          <Homepage2Light />
+        <Route path="/index-2-light" element={ <Homepage2Light />}>
+         
         </Route>
-        <Route path="/index-2-dark" exact>
-          <Homepage2Dark />
+        <Route path="/index-2-dark" element={<Homepage2Dark />}>
+          
         </Route>
-        <Route path="/index-3" exact>
-          <Homepage3 />
+        <Route path="/index-3" element={<Homepage3 />}>
+          
         </Route>
-        <Route path="/index-3-light" exact>
-          <Homepage3Light />
+        <Route path="/index-3-light" element={<Homepage3Light />}>
+          
         </Route>
-        <Route path="/index-3-dark" exact>
-          <Homepage3Dark />
+        <Route path="/index-3-dark" element={ <Homepage3Dark />}>
+         
         </Route>
         <Route path="/blogs" component={Bloglist} exact />
         <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
-      </Switch>
+      </Routes>
     </BrowserRouter>
   );
 }
