@@ -13,6 +13,8 @@ import Services from "../components/sections/Services";
 import Testimonials from "../components/sections/Testimonials";
 import Works from "../components/sections/Works";
 
+
+import { NavLink } from "react-router-dom";
 function Homepage() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -43,6 +45,8 @@ function Homepage() {
         <Element name="section-about">
           <About />
         </Element>
+
+        <NavLink to='/dark'>Dark</NavLink>
         <Element name="section-services">
           <Services />
         </Element>
