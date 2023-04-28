@@ -7,27 +7,27 @@ const servicesData = [
   {
     id: 1,
     icon: "images/service-1.svg",
-    title: "UI/UX design",
+    title: "Front-end developer",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "My biggest accomplishment has been coming up with learning Reactjs that I used to create  user interface",
     color: "#6C6CE5",
     contentColor: "light",
   },
   {
     id: 2,
     icon: "images/service-2.svg",
-    title: "Web Development",
+    title: "Programming Language",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "I have written software mostly in Javascript but im also comfortable with TypeScript and Java.",
     color: "#F9D74C",
     contentColor: "dark",
   },
   {
     id: 3,
     icon: "images/service-3.svg",
-    title: "Photography",
+    title: "Backend",
     content:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.",
+      "I use backend technlogy like Node, ExpressJs. For data base utilized MongoDB and Axios/fetch for Api.",
     color: "#F97B8B",
     contentColor: "light",
   },

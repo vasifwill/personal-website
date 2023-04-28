@@ -5,56 +5,62 @@ import Pagetitle from "../elements/Pagetitle";
 import Skill from "../elements/Skill";
 
 const aboutContent = {
-  name: "Bolby",
+  name: "Vasif",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "I am Bolby Doe, web developer from London, United Kingdom. I have rich experience in web site design and building and customization, also I am good at WordPress.",
+    "For the past 4 years, I’ve been working alongside the Front-end developer's team to help create and optimize web applications. I have written software mostly in Javascript. My biggest accomplishment has been coming up with learning Reactjs that I used to create an optimized frontend - user interface in my previous applications."
 };
 
 const progressData = [
   {
     id: 1,
-    title: "Development",
-    percantage: 85,
+    title: "ReactJs",
+    percantage: 95,
     progressColor: "#FFD15C",
   },
   {
     id: 2,
-    title: "UI/UX Design",
+    title: "Javascript",
     percantage: 95,
     progressColor: "#FF4C60",
   },
   {
     id: 3,
-    title: "Photography",
+    title: "Nodejs/Express/MongoDb/Google Cloud",
     percantage: 70,
     progressColor: "#6C6CE5",
   },
+  {
+    id: 3,
+    title: "Unit Testing/Selenium",
+    percantage: 60,
+    progressColor: "#6C6CE5",
+  }
 ];
 
 const counterData = [
   {
     id: 1,
-    title: "Projects completed",
+    title: "Tasks",
     count: 198,
     icon: "icon-fire",
   },
   {
     id: 2,
-    title: "Cup of coffee",
+    title: "Cup of Tea",
     count: 5670,
     icon: "icon-cup",
   },
   {
     id: 3,
-    title: "Satisfied clients",
+    title: "Satisfied Users",
     count: 427,
     icon: "icon-people",
   },
   {
     id: 4,
-    title: "Nominees winner",
-    count: 35,
+    title: "Projects",
+    count: 4,
     icon: "icon-badge",
   },
 ];
@@ -71,14 +77,13 @@ function About() {
             </div>
             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
           </div>
-
           <div className="col-md-9 triangle-left-md triangle-top-sm">
             <div className="rounded bg-white shadow-dark padding-30">
               <div className="row">
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="!#" className="btn btn-default">
+                    <a href="https://drive.google.com/uc?export=download&id=1yVnbkDqRWfM4BIQzpqkkH2XWEgEVFdWU" className="btn btn-default">
                       Download CV
                     </a>
                   </div>

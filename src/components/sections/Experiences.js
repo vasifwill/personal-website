@@ -5,48 +5,48 @@ import Timeline from "../elements/Timeline";
 const educationData = [
   {
     id: 1,
-    title: "Acamedic Degree",
-    years: "2019 - Present",
+    title: "Bachelor’s Degree",
+    years: "2011 - 2015",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Graduated from A.T.E.I and ATM university with Bachelor's Degree in Engineering of Economy. Minor Marketing.",
   },
   {
     id: 2,
-    title: "Bachelor’s Degree",
-    years: "2017 - 2013",
+    title: "Bootcamp Certificate",
+    years: "2019 - 2020",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Finished full stack web developer course at Eemrson College.",
   },
   {
     id: 3,
-    title: "Honours Degree",
+    title: "Digital Marketing Bootcamp Certificate",
     years: "2013 - 2009",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Finished Digital Marketing courses in General Assembly in Boston, MA",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "Web Designer",
-    years: "2019 - Present",
+    title: "Web Frontend Developer.",
+    years: "2020 - Present",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Frontend Web Developer position at IfixOnWheelz.com.Utilized  Reactjs components Forms, Events, Keys, Router, and Redux. Selenium fixing bugs and testing for usability.",
   },
   {
     id: 2,
-    title: "Front-End Developer",
-    years: "2017 - 2013",
+    title: "Web Design Frontend",
+    years: "2019 - 2020",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Frontend Web Developer position at Labvoce company",
   },
   {
     id: 3,
-    title: "Back-End Developer",
+    title: "Digital Marketer",
     years: "2013 - 2009",
     content:
-      "Lorem ipsum dolor sit amet quo ei simul congue exerci ad nec admodum perfecto.",
+      "Digital Marketing position at aqvashopping.com company",
   },
 ];
 
