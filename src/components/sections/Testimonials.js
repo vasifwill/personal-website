@@ -7,23 +7,23 @@ const sliderData = [
   {
     id: 1,
     avatar: "images/avatar-1.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    userName: "Seyfo",
+    subtitle: "Senior level Tester",
     review:
       "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
   },
   {
     id: 2,
     avatar: "images/avatar-2.svg",
-    userName: "John Doe",
-    subtitle: "Product designer at Dribbble",
+    userName: "Aflatun",
+    subtitle: "Founder ifixonwheelz",
     review:
       "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
   },
   {
     id: 3,
     avatar: "images/avatar-3.svg",
-    userName: "John Doe",
+    userName: "Mark",
     subtitle: "Product designer at Dribbble",
     review:
       "I enjoy working with the theme and learn so much. You guys make the process fun and interesting. Good luck! 👍",
