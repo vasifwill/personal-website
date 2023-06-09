@@ -39,14 +39,14 @@ const experienceData = [
     title: "Web Frontend Frontend",
     years: "2019 - 2020",
     content:
-      "Frontend Web Developer position at Labvoce company",
+      "Frontend Web Developer position at Labvoce company.",
   },
   {
     id: 3,
     title: "Web Frontend Frontend",
     years: "2018 - 2019",
     content:
-      "Frontend Web Developer position at Labvoce company",
+      "Frontend Web Developer position at Akvashopping.com.",
   },
 ];
 
