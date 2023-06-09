@@ -83,7 +83,7 @@ function About() {
                 <div className="col-md-6">
                   <p>{aboutContent.content}</p>
                   <div className="mt-3">
-                    <a href="https://drive.google.com/uc?export=download&id=1yVnbkDqRWfM4BIQzpqkkH2XWEgEVFdWU" className="btn btn-default">
+                    <a href="https://drive.google.com/uc?export=download&id=1EtwlZhj0DmqK4l_yYr46NUIkhsq7R_fk" className="btn btn-default">
                       Download CV
                     </a>
                   </div>
