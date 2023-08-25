@@ -13,14 +13,14 @@ const educationData = [
   {
     id: 2,
     title: "Bootcamp Certificate",
-    years: "2019 - 2020",
+    years: "2017 - 2028",
     content:
       "Finished full stack web developer course at Eemrson College.",
   },
   {
     id: 3,
     title: "Digital Marketing Bootcamp Certificate",
-    years: "2013 - 2009",
+    years: "2016 - 2017",
     content:
       "Finished Digital Marketing courses in General Assembly in Boston, MA",
   },
@@ -30,16 +30,16 @@ const experienceData = [
   {
     id: 1,
     title: "Web Frontend Developer.",
-    years: "2020 - Present",
+    years: "2021 - Present",
     content:
-      "Frontend Web Developer position at IfixOnWheelz.com.Utilized  Reactjs components Forms, Events, Keys, Router, and Redux. Selenium fixing bugs and testing for usability.",
+      "Frontend Web Developer position at Truist Banker.Utilized  Reactjs components to increase user engagement and simplify navigation.",
   },
   {
     id: 2,
     title: "Web Frontend Frontend",
-    years: "2019 - 2020",
+    years: "2018 - 2021",
     content:
-      "Frontend Web Developer position at Labvoce company.",
+      "Frontend Web Developer position at Harford Financial Service Group. We built a financial data visualization platform using HTML, CSS, JavaScript, D3.js, and ReactJs"
   },
   {
     id: 3,

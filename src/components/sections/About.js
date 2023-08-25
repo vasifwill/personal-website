@@ -8,7 +8,7 @@ const aboutContent = {
   name: "Vasif",
   avatarImage: "/images/avatar-2.svg",
   content:
-    "For the past 4 years, I’ve been working alongside the Front-end developer's team to help create and optimize web applications. I have written software mostly in Javascript. My biggest accomplishment has been coming up with learning Reactjs that I used to create an optimized frontend - user interface in my previous applications."
+    "For the past 5 years, I’ve been working alongside the Front-end developer's team to help create and optimize web applications. I have written software mostly in Javascript. My biggest accomplishment has been coming up with learning Reactjs that I used to create an optimized frontend - user interface in my previous applications."
 };
 
 const progressData = [
