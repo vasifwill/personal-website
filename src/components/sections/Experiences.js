@@ -30,23 +30,23 @@ const experienceData = [
   {
     id: 1,
     title: "Web Frontend Developer.",
-    years: "2021 - Present",
+    years: "2022 - 2022",
     content:
       "Frontend Web Developer position at Truist Banker.Utilized  Reactjs components to increase user engagement and simplify navigation.",
   },
   {
     id: 2,
     title: "Web Frontend Frontend",
-    years: "2018 - 2021",
+    years: "2019 - 2022",
     content:
       "Frontend Web Developer position at Harford Financial Service Group. We built a financial data visualization platform using HTML, CSS, JavaScript, D3.js, and ReactJs"
   },
   {
     id: 3,
     title: "Web Frontend Frontend",
-    years: "2018 - 2019",
+    years: "2017 - 2019",
     content:
-      "Frontend Web Developer position at Akvashopping.com.",
+      "Frontend Web Developer position at ifixonwheelz.com.",
   },
 ];
 
